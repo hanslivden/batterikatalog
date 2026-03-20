@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://app.posthog.com'
+const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST ?? 'https://eu.i.posthog.com'
 
 export async function POST(request: NextRequest) {
   const body = await request.text()
