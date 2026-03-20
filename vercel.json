@@ -1,0 +1,12 @@
+{
+  "i18n": {
+    "locales": ["no"],
+    "defaultLocale": "no"
+  },
+  "crons": [
+    {
+      "path": "/api/cron/generate-content",
+      "schedule": "0 8 * * 1"
+    }
+  ]
+}
